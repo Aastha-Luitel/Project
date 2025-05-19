@@ -1,0 +1,198 @@
+body{
+    font-family: "Montserrat", sans-serif;
+    background-color: hsl(235, 59%, 61%);
+    width: 100%;
+    min-height: 100vh;
+    padding: 0 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.form-section{
+    border: 1px solid #2772db;
+    border-radius: 5px;
+    height: auto;
+    width: 100%;
+    max-width: 438px;
+    background-color: #fff;
+    padding: 41px 30px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+    }
+
+
+h1{
+    text-align: center;
+    
+}
+
+.user-section label{
+   display: block;
+   margin: 10px;
+   padding: 5px;
+   
+}
+
+.user-section input{
+    display: block;
+    width: 90%;
+    height: 57px;
+    border: 1px solid #DADAF2;
+    border-radius: 5px;
+    outline: none;
+    background: #F8F8FB;
+    font-size: 17px;
+    margin-bottom: 20px;
+    margin-top: 8px;
+    padding: 0px 20px;
+    transform: 0.2s ease;
+    
+}
+.user-section input:hover{
+    border-color: #626cd6;
+}
+
+.user-section input:focus:not(:placeholder-shown){
+    font-size: 20px;
+    font-weight: 500;
+    
+}
+
+.password-title a{
+     margin-left: 50%;
+     color: #626cd6;
+     font-size: 15px;
+     text-decoration: none;
+}
+
+.password-title a:hover{
+    text-decoration: underline;
+}
+
+.log-btn{
+    width: 80%;
+    height: 56px;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+    background-color: #626CD6;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 500px;
+    text-transform: uppercase;
+    cursor: pointer;
+    margin-left: 50px;
+    margin-bottom: 28px;
+    transition: 0.3s ease;
+}
+
+.log-btn:hover{
+    background-color: #4954d0;
+}
+
+.separater{
+    position: relative;
+    text-align: center;
+    margin: 20px 0;
+}
+
+.separater::before,
+.separater::after{
+    content: "";
+    position: absolute;
+    top: 50%;
+    width: 45%;
+    height: 1px;
+    background-color: #C2C2C2;
+}
+
+.separater::before{
+    left: 0;
+}
+
+.separater::after{
+    right: 0;
+}
+
+.separater span {
+    display: inline-block;
+    padding: 0 10px;
+    background-color: #faf6f9;
+    position: relative;
+    z-index: 1;
+}
+
+.icon h3{
+    text-align: center;
+    font-weight: normal;
+}
+
+.icon img{
+    max-width: 25px;
+    margin: 10px;
+}
+
+.button-container{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 10px;
+}
+
+.google-btn, .apple-btn {
+    display: flex;
+    align-items: center;
+    width: 48%;
+    background-color:#dbd8e3;
+    border: 1px solid #DADAF2;
+    padding: 5px;
+    margin: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: 0.3s ease;
+}
+
+.google-btn:hover{
+    background:#ededf5 ;
+    border-color: #5dacbd;
+}
+
+.google-btn span{
+    color: #555;
+    font-size: 15px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+
+.apple-btn span{
+    color: #555;
+    font-size: 15px;
+    display: inline-block;
+    
+    
+}
+
+.apple-btn:hover{
+    background:#ededf5 ;
+    border-color: #5dacbd;
+}
+
+.signup-sec{
+    text-align: center;
+}
+
+.signup-sec a{
+    text-decoration: none;
+}
+
+.signup-sec a:hover{
+    text-decoration: underline;
+}
+
+
+
+    
+
+
+
