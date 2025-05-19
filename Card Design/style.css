@@ -1,0 +1,103 @@
+.flip-card {
+    background-color: transparent;
+    width: 350px;
+    height: 600px;
+    border: 1px solid #f1f1f1;
+    perspective: 1000px;
+    position: relative;
+    margin-top: 50px;
+    margin-left: 600px;
+  }
+
+  img{
+    margin-top: 20px;
+  }
+  
+  .flip-card-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    
+  }
+  
+  .flip-card:hover .flip-card-inner {
+    transform: rotateY(180deg);
+  }
+  
+  .flip-card-front, .flip-card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+  }
+  
+  .flip-card-front {
+    background-color: #bbb;
+    color: black;
+  }
+  
+  .flip-card-back {
+    background-color: #fecd51;
+    color: white;
+    transform: rotateY(180deg);
+  }
+
+  .flip-card-back h2{
+    color: black;
+  }
+
+  .flip-card-back p{
+    color: #000;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+
+  h4{
+    color: darkred;
+  }
+
+  .price{
+    margin-top: 190px;
+  }
+  h3{
+    color: #000;
+    font-size: 25px;
+    font-weight: bold;
+  }
+
+  span{
+    font-size: 20px;
+    font-weight: bold;
+    color: #000;
+    }
+
+  button{
+    border: none;
+    border-radius: 12px;
+    outline: 0;
+    padding: 12px;
+    background-color: #000;
+    color: white;
+    cursor: pointer;
+    width: 50%;
+    font-size: 18px;
+  }
+
+  button:hover{
+    background-color: cadetblue;
+  }
+
+  .icon{
+     margin-top: 20px;
+     font-size: 20px;
+     
+  }
+
+  .cart{
+    margin-top: 10px;
+  }
+
+  
